@@ -1,0 +1,30 @@
+{
+  "network": "worldland",
+  "chainId": 103,
+  "deployer": "0xc820d1e0a929c23c17cb4bc8620f92e0084bfe8a",
+  "deployedAt": "2026-03-02T20:50:57.473Z",
+  "contracts": {
+    "pixelCanvas": {
+      "proxy": "0xd3774a5906c3c0309a80aeb3df65d4d25f7192d9",
+      "implementation": "0x12c3a295aa7f6a9888303d16ad9cf330bff274d2"
+    },
+    "canvasAuction": {
+      "proxy": "0xaf9b79133ba730f20a747f9510516d898a6a9027",
+      "implementation": "0x56db6b1cbc69e79bcedfb14ea92ec7c816aa0d70"
+    },
+    "revenueDistributor": {
+      "proxy": "0xbf39914bafe573132fc0511dbff84ee952dc0b6a",
+      "implementation": "0x3ed03cf6df7d9355c005824b5373b697bd46262f"
+    },
+    "canvasNFT": {
+      "proxy": "0x2b88a26b942803404007fe03eaa07d3661e64783",
+      "implementation": "0x17d4d32ba35f05703c13604ecb909de116172ded"
+    }
+  },
+  "crossReferences": {
+    "pixelCanvas.auctionContract": "0xaf9b79133ba730f20a747f9510516d898a6a9027",
+    "revenueDistributor.canvasAuctionContract": "0xaf9b79133ba730f20a747f9510516d898a6a9027",
+    "canvasAuction.pixelCanvasContract": "0xd3774a5906c3c0309a80aeb3df65d4d25f7192d9",
+    "canvasAuction.revenueDistributorContract": "0xbf39914bafe573132fc0511dbff84ee952dc0b6a"
+  }
+}

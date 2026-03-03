@@ -1,0 +1,37 @@
+node_modules/
+artifacts/
+cache/
+dist/
+coverage/
+coverage.json
+typechain-types/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime data
+server/data/
+
+# Planning / design docs (not for production repo)
+.planning/
+design/
+pixel_art_dapp/
+pixel_art_frontend/
+reference_design_skill
+worldland_docs/
+test/
+
+# Claude / Agent
+.claude/
+.agent/
+.nvmrc
